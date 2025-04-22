@@ -14,7 +14,7 @@ A simple Task Management Application built using the **MERN** (MongoDB, Express.
 
 ---
 
-## 🗂️ Backend Setup (`/server`)
+##  Backend Setup (`/server`)
 
 Navigate to the server directory:
 
@@ -22,6 +22,23 @@ Navigate to the server directory:
 cd api
 
 Install dependencies:
+npm install
+
+Create a .env file:
+PORT=3000
+MONGO_URI=your_mongodb_connection_string
+
+Start the server:
+npm run dev
+The backend will run on http://localhost:3000
+
+## Frontend Setup (`/client`)
+
+Navigate to the client directory:
+cd client
+
+Install dependencies:
+npm install
 
 Create a .env file:
     VITE_API_BASE_URL="http://localhost:3000/api"
